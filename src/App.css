@@ -1,0 +1,193 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: small;
+  margin: 0 auto;
+  background: #fff;
+  width: 90.90909091%;
+  max-width: 986px;
+  overflow: auto;
+  padding: 20px 0px;
+}
+
+body {
+  background-color: #e3e5e3;
+}
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: #24A0D8;
+}
+
+.downloadlink_button {
+    background-color: #B0C92B !important;
+    background-image: none;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Helvetica;
+    padding: 10px;
+    margin: 0px;
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+}
+
+.pointercursor {
+  cursor: pointer;
+}
+
+.kthheader {
+  margin: 0 38px;
+}
+
+.kthheaderlogo {
+  overflow: auto;
+  padding: 20px 0px;
+}
+
+.kthheadertext {
+  border-top: 1px dotted #B9BBBD;
+  font-size: 32px;
+  font-family: Georgia Regular,Georgia,garamond pro,garamond,times new roman,times,serif,droid sans;
+  padding: 15px 0px;
+}
+
+.kthbutton {
+  background-color: #B0C92B !important;
+  background-image: none;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Helvetica;
+  padding: 5px;
+  margin: 0px;
+  background-repeat: repeat-x;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+}
+
+.floatleft {
+  float:left;
+}
+
+.floatright {
+  float: right;
+}
+
+.width100percent {
+  width: 100%;
+}
+
+.textalignright {
+  text-align: right;
+}
+
+.textaligncenter {
+  text-align: center;
+}
+
+.paddingleft10 {
+  padding: 0px 0px;
+}
+
+.paddingbottom15 {
+  padding-bottom: 15px;
+}
+
+.button {
+  width: 140px;
+  position: relative;
+  background-color: #fff;
+  border: none;
+  font-size: 16px;
+  color: #000;
+  padding: 20px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.width100percent {
+  width: 100%;
+}
+
+.flexcontainer {
+  display: flex
+}
+
+.flex90 {
+  flex: 90;
+}
+
+.flex10 {
+  flex: 10;
+}
+
+.bottomalignselfflex {
+  align-self: flex-end;
+}
+
+.centeralignselfflex {
+  align-self: center;
+}
+
+.kthlead {
+  padding: 10px 0px 15px 0px;
+  font-size: 18px;
+  color: #000000;
+  font-weight: normal;
+  line-height: 23px;
+  font-family: 'Georgia Regular', 'Georgia', 'garamond pro', garamond, 'times new roman', times, serif, 'droid sans';
+  color: #333333;
+  clear: left;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
